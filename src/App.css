@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.imgur.com/NhhUMS5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px; /* Увеличенный отступ */
+  border-radius: 20px; /* Большее загругление */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Центрирование текста */
+  margin-top: 15px; /* Отступ сверху */
+  margin-left: 15px; /* Отступ слева */
+  margin-right: 15px; /* Отступ справа */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрирование по горизонтали */
+}
+
+.logo-img {
+  max-width: 50px; /* Меньший размер логотипа */
+  margin-right: 10px;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px; /* Меньший размер текста */
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  padding: 20px;
+}
+
+.college-photo {
+  max-width: 25%; /* Меньший размер фото */
+  border-radius: 10px; /* Загругление углов фото */
+}
+
+.info {
+  max-width: 500px; /* Увеличенная ширина блока с информацией */
+  margin-left: 20px; /* Отступ слева от фото */
+  font-size: 18px; /* Увеличенный размер текста */
+  position: relative; /* Позиционирование для псевдоэлемента */
+}
+
+.info p {
+  text-align: justify; /* Выравнивание текста по ширине */
+  color: white; /* Белый цвет текста */
+  font-family: Arial, sans-serif; /* Шрифт текста */
+  font-weight: bold; /* Жирный текст */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Тень текста */
+  padding: 25px; /* Отступ внутри прямоугольника */
+}
+
+.info::after {
+  content: '';
+  position: absolute;
+  top: 0; /* Позиционирование вверху */
+  right: 0; /* Позиционирование справа */
+  bottom: 0; /* Позиционирование внизу */
+  left: 0; /* Позиционирование слева */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  border-radius: 10px; /* Загругление углов */
+  z-index: -1; /* Установка z-index для перекрытия фона */
+}
+
+.info1 {
+  max-width: 500px; /* Увеличенная ширина блока с информацией */
+  margin-right: 20px; /* Отступ слева от фото */
+  font-size: 18px; /* Увеличенный размер текста */
+  position: relative; /* Позиционирование для псевдоэлемента */
+}
+
+.info1 p {
+  text-align: justify; /* Выравнивание текста по ширине */
+  color: white; /* Белый цвет текста */
+  font-family: Arial, sans-serif; /* Шрифт текста */
+  font-weight: bold; /* Жирный текст */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Тень текста */
+  padding: 25px; /* Отступ внутри прямоугольника */
+}
+
+.info1::after {
+  content: '';
+  position: absolute;
+  top: 0; /* Позиционирование вверху */
+  right: 0; /* Позиционирование справа */
+  bottom: 0; /* Позиционирование внизу */
+  left: 0; /* Позиционирование слева */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  border-radius: 10px; /* Загругление углов */
+  z-index: -1; /* Установка z-index для перекрытия фона */
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px; /* Увеличенный отступ */
+  border-radius: 20px; /* Большее загругление */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Центрирование текста */
+  margin-top: 15px; /* Отступ сверху */
+  margin-left: 15px; /* Отступ слева */
+  margin-right: 15px; /* Отступ справа */
+}
+
+footer p {
+  color: black; /* Цвет текста */
+  font-family: Arial, sans-serif; /* Шрифт текста */
+  font-size: 14px; /* Размер текста */
+  line-height: 1.5; /* Межстрочный интервал */
+}
